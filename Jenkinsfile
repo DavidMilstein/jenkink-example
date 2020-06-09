@@ -1,7 +1,7 @@
 pipeline {
     agent {label 'master'}
     tools {
-        maven 'mvn-362'
+        maven 'mvn'
     }
     stages {
         stage ('Compile Stage') {
